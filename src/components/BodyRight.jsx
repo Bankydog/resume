@@ -56,11 +56,9 @@ const BodyRight = ({ Tools, MyProject, WorkExp }) => {
                 Role: {item.role}
                 <br />
                 Responsibility:{" "}
-                <ul>
-                  {item.responsibilities.map((responsibility, i) => (
-                    <li key={i}>{responsibility}</li>
-                  ))}
-                </ul>
+                {item.responsibilities.map((responsibility, i) => (
+                  <li key={i}>{responsibility}</li>
+                ))}
               </p>
             </div>
           ))}
