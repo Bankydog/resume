@@ -4,7 +4,7 @@ const Head = () => {
   return (
     <>
       <div className="h-[230px] w-[1280] flex justify-around bg-white dark:bg-black">
-        <div className="">
+        <div className="ml-16 mt-1">
           <img
             src="./imgs/profile.jpg"
             className="h-[200px] rounded-3xl mt-3 dark:border-2 border-white"
@@ -17,11 +17,11 @@ const Head = () => {
             Padet Sukhuange
           </h1>
 
-          <p className="font-drf text-right mt-14 mr-2 dark:text-white">
+          <p className="font-drf text-right mt-14 mr-2 dark:text-white relative">
             นาย เผด็จ สุขห่วง
           </p>
         </div>
-        <div className=" mr-16">
+        <div className="absolute right-[450px] mt-2 ">
           <DarkModeToggle />
         </div>
       </div>

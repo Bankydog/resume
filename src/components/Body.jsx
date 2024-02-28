@@ -15,7 +15,7 @@ import { useEffect } from "react";
 const Body = () => {
   return (
     <>
-      <div className="w-[100%] h-[900px] flex justify-between dark:bg-black">
+      <div className="w-[100%] h-[750px] flex justify-between dark:bg-black">
         <BodyLeft
           education={Education}
           language={Language}
