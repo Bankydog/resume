@@ -2,6 +2,7 @@
 export default {
   darkMode: "class",
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  darkMode: "class",
   theme: {
     extend: {
       colors: {
@@ -10,6 +11,8 @@ export default {
         },
       },
       fontFamily: {
+        abc: ["Anta", "sans-serif"],
+        drf: ["Anta", "sans-serif"],
         changa: ["Changa", "sans-serif"],
         chivo: ["Chivo", "sans-serif"],
         cinzel: ["Cinzel", "serif"],
