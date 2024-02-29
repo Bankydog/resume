@@ -1,18 +1,6 @@
-import { useState } from "react";
-
 const BodyRight = ({ Tools, MyProject, WorkExp }) => {
   return (
-    const itemsPerPage = ""
-const totalItems = Tools.length;
-const totalPages = Math.ceil(totalItems / itemsPerPage);
-
-const [currentPage, setCurrentPage] = useState(1);
-
-const handleNextPage = () => {
-  setCurrentPage((prevPage) => (prevPage < totalPages ? prevPage + 1 : prevPage));
-};
     <>
-    
       <div className="w-[850px] bodywrapper1">
         <>
           <div>
