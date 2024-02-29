@@ -1,5 +1,41 @@
-/* img {
-  width: 60px;
-  height: 60px;
-  vertical-align: middle;
-} */
+@media only screen and (min-width: 1011px) {
+  .bodywrapper2 {
+    background-color: rgb(20, 220, 57);
+    display: none;
+    transition: 1s;
+  }
+
+  .bodyLwrapper2 {
+    background-color: rgb(20, 220, 57);
+    display: none;
+    transition: 1s;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .bodywrapper1 {
+    background-color: rgb(207, 204, 35);
+    display: none;
+    transition: 1s;
+  }
+
+  .bodyLwrapper1 {
+    background-color: rgb(207, 204, 35);
+    display: none;
+    transition: 1s;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1010px) {
+  .bodywrapper1 {
+    background-color: rgb(207, 204, 35);
+    display: none;
+    transition: 1s;
+  }
+
+  .bodyLwrapper1 {
+    background-color: rgb(207, 204, 35);
+    display: none;
+    transition: 1s;
+  }
+}

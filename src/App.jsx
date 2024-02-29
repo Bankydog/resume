@@ -5,7 +5,7 @@ import Body from "./components/Body";
 
 function App() {
   return (
-    <div>
+    <div className=" dark:bg-black">
       <Head />
       <Body />
     </div>
