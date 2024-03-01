@@ -1,0 +1,29 @@
+/* @media only screen and (min-width: 700px) and (max-width: 1023px) {
+  .headwrapper {
+    background-color: crimson;
+  }
+} */
+
+@media only screen and (min-width: 1011px) {
+  .headwrapper2 {
+    background-color: rgb(20, 220, 57);
+    display: none;
+    transition: 1s;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .headwrapper1 {
+    background-color: rgb(207, 204, 35);
+    display: none;
+    transition: 1s;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1010px) {
+  .headwrapper1 {
+    background-color: rgb(207, 204, 35);
+    display: none;
+    transition: 1s;
+  }
+}
