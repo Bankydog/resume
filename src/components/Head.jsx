@@ -4,7 +4,7 @@ import "./Head.css";
 const Head = () => {
   return (
     <>
-      <div className="h-[230px] flex justify-around bg-white dark:bg-black wrapperFull headwrapper1">
+      <div className="h-[230px] flex justify-around dark:bg-black wrapperFull headwrapper1">
         <div className="ml-14">
           <img
             src="./imgs/profile.jpg"
@@ -29,7 +29,7 @@ const Head = () => {
 
       {/* /////////////////////// small ///////////////////////////// */}
 
-      <div className="h-[300px]  flex flex-col items-center bg-white dark:bg-black headwrapper2">
+      <div className="h-[300px]  flex flex-col items-center dark:bg-black headwrapper2">
         <div className="w-[450px] mt-5 flex justify-end">
           <DarkModeToggle />
         </div>

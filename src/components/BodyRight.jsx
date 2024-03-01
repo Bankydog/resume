@@ -78,28 +78,22 @@ const BodyRight = ({ Tools, MyProject, WorkExp }) => {
 
       <div className="w-[350px] bodywrapper2">
         <>
-          <div>
+          <div className="mb-6">
             <h2 className="h-[50px] flex justify-center items-center text-3xl text-center bg-slate-900 text-white rounded-lg dark:text-yellow-400">
               Tools
             </h2>
-            <div className="flex justify-center">
-              <div
-                id="slider"
-                className="w-full h-[150px] relative flex items-center pt-6 overflow-x-scroll scroll whitespace-nowrap scroll-smooth"
+            <div className="h-[100px]">
+              <Swiper
+                watchSlidesProgress={true}
+                slidesPerView={3}
+                className="mySwiper"
               >
                 {Tools.map((tool, index) => (
-                  <div key={index} className="flex-col scroll-m-5">
-                    <img
-                      src={tool.icon}
-                      alt=""
-                      className="w-[75px] h-[75px] inline-block cursor-pointer mr-5 mb-2 rounded-xl hover:scale-150 ease-in-out duration-200"
-                    />
-                    <p className=" text-center dark:text-white">
-                      {tool.description}
-                    </p>
-                  </div>
+                  <SwiperSlide key={index} className="">
+                    <img src={tool.icon} alt={tool.description} />
+                  </SwiperSlide>
                 ))}
-              </div>
+              </Swiper>
             </div>
           </div>
         </>
