@@ -1,4 +1,4 @@
-import DarkModeToggle from "../darkMoad/darkmoad";
+import DarkModeToggle from "../darkMode/darkmode";
 import "./Head.css";
 
 const Head = () => {

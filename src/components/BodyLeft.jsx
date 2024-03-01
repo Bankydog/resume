@@ -2,7 +2,7 @@ import "./Body.css";
 
 const BodyLeft = ({ education, language, hobbies, contact }) => {
   return (
-    <div className="w-[350px] flex-col">
+    <div className="w-[350px] h-[750px] flex-col">
       <>
         <div>
           <h1 className="h-[50px] flex justify-center items-center text-3xl text-center bg-slate-900 text-white rounded-lg mb-6 dark:text-yellow-400">
