@@ -10,7 +10,6 @@ import {
 } from "../data/data";
 import BodyLeft from "./BodyLeft";
 import BodyRight from "./BodyRight";
-import ScrollToTop from "react-scroll-up";
 
 const Body = () => {
   return (
@@ -39,16 +38,6 @@ const Body = () => {
             contact={Contact}
           />
         </div>
-
-        <ScrollToTop showUnder={100}>
-          <div className="w-[50px] h-[50px] flex justify-center rounded-full items-center dark:bg-white">
-            <img
-              src="./imgs/arrow-up.png"
-              className="w-[30px] h-[30px]"
-              alt="push to top page"
-            />
-          </div>
-        </ScrollToTop>
       </div>
     </>
   );
