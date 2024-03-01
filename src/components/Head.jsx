@@ -30,7 +30,7 @@ const Head = () => {
       {/* /////////////////////// small ///////////////////////////// */}
 
       <div className="h-[300px] mb-10 flex flex-col items-center dark:bg-black headwrapper2">
-        <div className="w-[300px] pl-[355px] mt-5 flex justify-end">
+        <div className="w-[300px] pl-[360px] iphone:pl-[400px] mt-5 flex justify-end">
           <DarkModeToggle />
         </div>
         <div className="">

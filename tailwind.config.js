@@ -5,6 +5,9 @@ export default {
   darkMode: "class",
   theme: {
     extend: {
+      screens: {
+        iphone: "500px",
+      },
       colors: {
         blue: {
           DEFAULT: "#608AF5",
